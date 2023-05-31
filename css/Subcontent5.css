@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* sub section 교환/환불/배송 #5 */
+#SubService {width: 100%; height: auto; margin: 0 auto; background-color:#fff;
+    display: flex; flex-direction: column; align-items: center;} 
+
+/* sub 내용 #5-1 판매자 정보 css */
+.SubSellerBox {width: 55%; height: auto; margin-top: 20px;}
+.SubSellerBox > .SSBH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SSBH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SubSellerBox > p {font-size: 14px; margin:20px;}
+
+.SSBC {width: 100%; height: auto; margin-bottom: 20px; display: flex;}
+.SSBC tr th {width: 230px; height: 40px; border: 1px solid #eee; background-color: #f9f9f9; }
+.SSBC tr th p {font-size: 12px; margin:15px 10px 10px 10px; float: left;}
+.SSBC tr td {width: 820px; border: 1px solid #eee;}
+.SSBC tr td p {font-size: 12px; margin:15px 10px 10px 10px; float: left;}
+
+/* sub 내용 #5-2 교환&환불 css */
+.SubexchangeBox {width: 55%; height: auto; margin-top: 20px;}
+.SubexchangeBox > .SEBH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin: 20PX 0; padding:0 0 7px 20px;}
+.SEBH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SEBC {width: 100%; height: auto; margin-bottom: 20px; display: flex;}
+.SEBC tr th {width: 230px; height: 40px; border: 1px solid #eee; background-color: #f9f9f9;
+    vertical-align: middle; line-height: 0px;}
+.SEBC tr th p {font-size: 12px; margin:15px 10px 10px 10px; float: left;}
+.SEBC tr td {width: 820px; border: 1px solid #eee; line-height: 20px;}
+.SEBC tr td p {font-size: 12px; margin:15px 10px 10px 10px; float: left;}
+
+.SubexchangeBox > h4 {font-size: 12px; font-weight: bold; margin-bottom: 10px; margin-left: 20px;}
+.SubexchangeBox > p {font-size:12px; font-weight: normal; margin-bottom: 10px; margin-left: 20px; line-height: 20px;
+    color: #666;}
+.SubexchangeBox > p > em {margin-right: 8px;}
+.SubexchangeBox > p > a {color: #222;}
+
+/* sub 내용 #5-3 배송안내 css */
+.SubDeliverBox {width: 55%; height: auto;  margin-bottom: 100px; margin-top: 30px;}
+.SubDeliverBox > .SDH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin: 20PX 0; padding:0 0 7px 20px;}
+.SDH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SDBC > li {font-size:12px ; color: #777; line-height: 20px; margin-left: 15px;}
+.SDBC > li > em {margin-left: 10px;}

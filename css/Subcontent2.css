@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* sub section #2 */
+#scontent2 {width: 100%; height: auto; margin: 0 auto; background-color:#fff;
+    display: flex; flex-direction: column; align-items: center;}
+
+/* sub 메뉴 */
+#scontent2 > .SubMenu {width: 55%; height: 42px; position:sticky; top:0; z-index: 5;}
+.SubMenu > ul {display: flex; flex-direction: row; justify-content: space-around; text-align: center;}
+.SubMenu > ul > li {width: 20%; height: 30px; padding-top: 10px; background-color: #f8f8f8;
+    border: 1px solid #e8e8e8; border-bottom: 1px solid #cdcdcd; border-top: 1px solid #f3f3f3;}
+.SubMenu > ul > li > a {text-decoration: none; color: #0c0c0c; font-size: 12px; font-weight: bold;
+    padding-top: 12px; padding-bottom: 12px; padding-left: 60px; padding-right: 60px;}
+.SubMenu > ul > li:first-child > a {padding-top: 12px; padding-bottom: 12px; padding-left: 83px; padding-right: 83px;}
+.SubMenu > ul > li:nth-child(3) > a {padding-top: 12px; padding-bottom: 12px; padding-left: 78px; padding-right: 78px;}
+.SubMenu > ul > li:hover {cursor: pointer;}
+
+.SubMenu > ul > li.on1 {border: 1px solid #848484; background-color: #848484;}
+.SubMenu > ul > li.on1 > a {color: #fff;}
+
+    /* sub 내용 #2-1 이상품의 분류 css */
+.SubCategoriTab {width: 55%; height: 130px; }
+.SubCategoriTab > .SubCTabHeader {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SubCTabHeader > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SubCategoriTab > .SubCTabcontent {width: 100%; height: 30px;}
+.SubCTabcontent > ul {display: flex; flex-direction: row; margin-top: 30px; padding:0 0 7px 20px;}
+.SubCTabcontent > ul > li {font-size: 12px; color: #555; margin-right: 10px;}
+.SubCTabcontent > ul > li > a {text-decoration: none; font-size: 12px; color: #555;}
+.SubCTabcontent > ul > li > a:hover {text-decoration-line: underline;}
+.SubCTabcontent > ul > li:last-child > a {text-decoration: none; font-size: 12px; color: #222; font-weight: bold;}
+.SubCTabcontent > ul > li:last-child > a:hover {text-decoration-line: underline;}
+
+    /* sub 내용 #2-2 책소개 css */
+.SubBookInformation {width: 55%; height: auto; }
+.SubBookInformation > .SBIFH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBIFH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SubBookInformation > .SBIFC {width: 95%; height: 200px; margin-left: 20px; margin-top: 30px;}
+.SBIFC > p {font-size: 12px; line-height: 20px;}
+.IFhs > p {height: auto; font-size: 12px; line-height: 20px;}
+
+.spredadIF {float: right; margin-right: 20px;}
+.text_spreadIF {font-size: 12px;}
+.text_spreadIF:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadIF > i {color: #ed554a;}
+.text_spreadIF:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-3 출판사 서평 css */
+.SubBookPublisher {width: 55%; height: auto; }
+.SubBookPublisher > .SBPH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBPH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBPC {width: 95%; height: 200px; margin-left: 20px; margin-top: 30px;}
+.SBPC > p {font-size: 12px; line-height: 20px;}
+.PChs > p {height: auto; font-size: 12px; line-height: 20px;}
+
+.spredadPC {float: right; margin-right: 20px;}
+.text_spreadPC {font-size: 12px;}
+.text_spreadPC:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadPC > i {color: #ed554a;}
+.text_spreadPC:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-4 추천사 css */
+.SubBookRecommend {width: 55%; height: auto; }
+.SubBookRecommend > .SBRCH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBRCH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBRC {width: 95%; height: 200px; margin-left: 20px; margin-top: 30px;}
+.SBRC > p {font-size: 12px; line-height: 20px;}
+.RChs > p {height: auto; font-size: 12px; line-height: 20px;}
+
+.spredadRC {float: right; margin-right: 20px;}
+.text_spreadRC {font-size: 12px;}
+.text_spreadRC:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadRC > i {color: #ed554a;}
+.text_spreadRC:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-5 목차 css */
+.SubBookTable {width: 55%; height: auto; }
+.SubBookTable > .SBTH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBTH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBTC {width: 95%; height: 200px; margin-left: 20px; margin-top: 30px;}
+.SBTC > p {font-size: 12px; line-height: 20px;}
+.TChs > p {height: auto; font-size: 12px; line-height: 20px;}
+
+.spredadTC {float: right; margin-right: 20px;}
+.text_spreadTC {font-size: 12px;}
+.text_spreadTC:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadTC > i {color: #ed554a;}
+.text_spreadTC:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-6 본문중에서 css */
+.SubBookMainContent {width: 55%; height: auto; }
+.SubBookMainContent > .SBMCH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBMCH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBMC {width: 95%; height: 200px; margin-left: 20px; margin-top: 30px;}
+.SBMC > p {font-size: 12px; line-height: 20px;}
+.MChs > p {height: auto; font-size: 12px; line-height: 20px;}
+
+.spredadMC {float: right; margin-right: 20px;}
+.text_spreadMC {font-size: 12px;}
+.text_spreadMC:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadMC > i {color: #ed554a;}
+.text_spreadMC:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-7 관련이미지 css */
+.SubBookIMG {width: 55%; height: auto;  margin-top: 20px;}
+.SubBookIMG > .SBIMGHeader {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBIMGHeader > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBIMGContent {width: 95%; height: auto; margin: 20px;}
+.SBIMGContent > ul {width: 70%;}
+.SBIMGContent > ul > li > img {width: 100%; height: 100%;}
+
+/* sub 내용 #2-8 저자소개 css */
+.SubBookAuthor {width: 55%; height: auto; }
+.SubBookAuthor > .SBAH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBAH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBACB {width: 100%; height: auto; background-color: #fff;
+    display: flex; flex-direction: column;}
+.SBACB > .SBACBH {width: 95%; background-color:#f9f9f9;  border-top:1px solid #ccc; 
+    margin-left: 5px; margin-top: 10PX ; padding: 10px 20px;
+    display: flex; flex-direction: row; justify-content: space-between; }
+.SBACBH > li {font-size: 16px; color: #333; font-weight: bold;}
+.SBACBH > li > a {text-decoration: none; color: #777; font-weight: normal; font-size: 11px;}
+.SBACBH > li > a:hover {text-decoration-line: underline;}
+
+.SBACBB {width: 98.75%; height: auto; margin-left: 5px; 
+    border-top: 1px solid #eee; border-bottom: 1px solid #eee;
+    display: flex; flex-direction: row; }
+.SBACBBL {width: 23%; height: auto; background-color: #fff; border-right: 1px solid #eee; }
+.SBACBBL > ul {padding-top: 15px; 
+    display: flex; flex-direction: row; justify-content: space-between;}
+.SBACBBL > ul > li {font-size: 12px; color: #555; padding:0 10px; }
+
+.SBACBBR {width: 77%; height: auto; background-color: #fff; }
+.SBAC {width: 97%; height: auto; margin: 10px; }
+.SBAC > p {font-size: 12px; line-height: 20px; padding: 8px;}
+
+.AChs > p {height: auto; font-size: 12px; line-height: 20px; padding: 8px;}
+
+.spredadAC {float: right; margin-right: 20px; margin-bottom: 10px;}
+.text_spreadAC {font-size: 12px;}
+.text_spreadAC:hover {text-decoration-line: underline; cursor: pointer;}
+.text_spreadAC > i {color: #ed554a;}
+.text_spreadAC:nth-child(2) {display: none;}
+
+    /* sub 내용 #2-9 상품정보제공고시 css */
+.SubBookReport {width: 55%; height: auto;  margin-top: 20px;}
+.SubBookReport > .SBRPH {width: 98%; height: 30px; border-bottom: 1px solid #777;
+    margin-top: 30px; padding:0 0 7px 20px;}
+.SBRPH > h1 {color: #333; font-weight: bold; font-size: 20px; }
+
+.SBRPC {width: 95%; height: 230px; margin-left: 20px; margin-top: 20px;
+    display: flex; }
+.SBRPC tr th {width: 150px; height: 40px; border: 1px solid #eee; background-color: #f9f9f9; }
+.SBRPC tr th p {font-size: 12px; margin:15px 10px 10px 10px;}
+.SBRPC tr td {border: 1px solid #eee;}
+.SBRPC tr td p {font-size: 12px; margin:10px; line-height: 20px;}

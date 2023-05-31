@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/* section #4 */
+#content4 {width: 100%; height: 780px; margin: 0 auto; background-color: #fff;
+    display: flex; flex-direction: column; align-items: center;}
+
+#content4 > .BT1 {width: 55%; height: 500px; background-color: #fff;
+    display: flex; flex-direction: row; justify-content: space-between;}
+
+    /* 하단 content 이달의 책 */
+.BT1 > .MonthBox {width: 420px; height: 430px; background-color: #fff;
+    display: flex; flex-direction: column;}
+
+.MonthBox > .MHB {width: 100%; height: 30px; border-bottom: 1px solid #222;
+    display: flex; flex-direction: row; }
+
+.MHB > h1 {font-size: 18px; color: #222; margin-top: 5px;}
+.MHB > h1 > span {color: #ef544d;}
+.MHB > h2 {margin-left: 10px; margin-top: 10px;}
+.MHB > h2 > a {font-size: 12px; text-decoration: none; color: #666;}
+
+.MHB > .MHBtn {width: 45px; height: 30px; margin-left: 185px; display: flex;}
+.MHBtn > img {width: 20px; height:20px; border: 1px solid #ddd; margin-top: 5px;}
+.MHBtn > img:hover {cursor: pointer;}
+
+.MBC {width: 420px; height: 490px; overflow: hidden; margin-left: 20px;}
+
+.MBC > li > .MT {width: 100%; height: 170px; margin: 20px 0;
+    display: flex; flex-direction: row;}
+.MT > .MTimg {width: 25%; height: 90%; box-shadow: 0 7px 10px 0 #666;}
+.MTimg > a > img {width: 100%; height: 100%;}
+
+.MBC > li > .MB {width: 100%; height: 170px; margin: 20px 0;
+    display: flex; flex-direction: row;}
+.MB > .MTimg {width: 25%; height: 90%; box-shadow: 0 7px 10px 0 #666;}
+
+.MT > .MText {width: 60%; height: 90%; line-height: 23px; margin-left: 10px;}
+.MB > .MText {width: 60%; height: 90%; line-height: 23px; margin-left: 10px;}
+.MText > h1 > a {text-decoration: none; color: #ef544d; font-size: 18px; font-family: tahoma;
+    display: block;margin-top: 3px;}
+.MText > h1 > a > .MBCstar {text-decoration: none; color: gold; font-size: 17px;}
+.MText > h2 > a {text-decoration: none; color: #222; font-size: 14px; 
+    display: block;}
+.MText > h3 > a {text-decoration: none; color: #222; font-size: 12px; 
+    display: block; }
+.MText > h3 > a > span {color: #666; text-decoration-line: line-through;}
+
+    /* 하단 content sale */
+    .BT1 > .SaleBox {width: 58%; height: 430px; }
+    /* 하단 content sale menu */
+.SaleBox > .SHMenu {width: 100%; height:30px; border-bottom:1px solid #222;
+    display: flex; flex-flow: row wrap; align-items: center;}
+.SHMenu > li {width: 100px;; font-size: 15px; color:#222; text-align: center; 
+    padding: 7.5px 0; cursor: pointer;}
+.SHMenu > .SaleOn {border:1px solid #222; border-bottom:none; color:#ef544d; background-color: #fff;}
+
+.SaleBox > .Sale {width: 100%; height: 400px; overflow: hidden;}
+.SaleBox > .Sale > ul {width: 100%; height: 400px;
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}
+.SaleBox > .Sale > ul > li{width: 130px; height: 350px;
+    display: flex; align-items: center;}
+
+        /* sale box img */
+.salecontent {width: 130px; height: 300px;}
+.salecontent > .saleimg {width: 130px; height: 150px; position: relative;}
+.salecontent > .saleimg > a > img  {width: 130px; height: 150px; box-shadow: 0 5px 5px 0 #ddd;}
+.saleimg > .saledown {width: 70px; height: 50px; position: absolute; cursor: pointer;
+    display: block; margin-left: 60px; margin-top: -45px; }
+.saledown > img {width: 100%; height: 100%;}
+.saledown > .S1 {width: 50px;font-size: 12px; display: block; margin-top: -50px; margin-left: 10px; color:gold}
+.saledown > .S2 {font-size: 15px; display: block; margin-left: 20px; margin-top:5px; color: #fff;}
+
+        /* sale box text */
+.salecontent > .saletext {width: 130px; height: 100px; margin-top: 10px;
+display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;}
+.saletext > h1 {width: 100%;  margin-bottom: 15px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.saletext > h1 > a {font-size: 13px; color: #222; text-decoration: none;}
+.saletext > h1 > a:hover {text-decoration-line: underline;}
+.saletext > h2 {margin-bottom: 7px; }
+.saletext > h2 > a {font-size: 11px; color: #666; text-decoration: none;}
+.saletext > h3 > a {font-size: 14px; color: #222; text-decoration: none;}
+
+    
+#content4 > .BT2 {width: 55%; height: 230px; background-color: #fff;}
+/* 서비스 & 혜택 */
+.BT2 > .ServiceBox {width: 100%; height: 200px;}
+    /* 서비스 & 혜택 헤더 */
+.ServiceBox > .SVBH {width: 100%; height: 40px; border-bottom: 2px solid #222;
+    display: flex; flex-direction: row; align-items: center;}
+.SVBH > h1 {font-size: 19px; font-weight: bold;}
+.SVBH > h2 {width: 80px; margin-left: 500px;}
+.SVBH > h2 > a {font-size: 13px; font-weight: bold; text-decoration: none; color: #222;}
+.SVBH > h2 > a > span {margin-left: 3px; width: 50px; height: 50px; }
+.SVBH > h3 {width: 300px; margin-left: 10px;}
+.SVBH > h3 > a {font-size: 13px; font-weight: bold; text-decoration: none; color: #666;}
+.SVBH > h3 > a:hover {text-decoration-line: underline;}
+
+    /* 서비스 & 혜택 내용 */
+.ServiceBox > .SVC {width: 100%; height: 130px;
+    display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 15px;}
+.SVC > ul {font-size: 15px; font-weight: bold;
+    display: flex; flex-direction: column;}
+.SVC > ul > li {font-size: 13px; color: #888; margin-top: 15px;}
+.SVC > ul > li > a {font-size: 13px; color: #888;  text-decoration: none;}
+.SVC > ul > li > a:hover {color: #222;}
+.SVC > ul > li > .SV1 {margin-left: 50px;}
+.SVC > ul > li > .SV2 {margin-left: 33px;}
+    
+    /* 하단 링크이동 배너 */
+.SVCBanner {width: 100%; height: 50px; background-color: #58cfc7;}
+.SVCBanner > ul {width: 100%; height: 50px; 
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.SVCBanner > ul > li {height: 100%; margin-left: 10px; margin-right: 5px;}
+.SVCBanner > ul > li:first-child {border-right: 1px solid #fff;}
+.SVCBanner > ul > li > a {font-size: 17px; color: #fff; text-decoration: none; display: block;
+    padding-top: 15px; padding-right: 15px;}
+.SVCBanner > ul > li > a > span {color:#fff5b1; font-weight: bold;}

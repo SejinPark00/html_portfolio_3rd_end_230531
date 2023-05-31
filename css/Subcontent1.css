@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/* sub section #1 */
+#scontent1 {width: 100%; height: 780px; margin: 0 auto; background-color:#fff;
+    display: flex; flex-direction: column; align-items: center;}
+
+/* sub categori */
+#scontent1 > .scategori {width: 55%; height: 30px; border-bottom: 1px solid #e5e5e5; background-color:#fff;
+    display: flex; flex-direction: row;}
+.scategori > li { height: 15px; font-size: 12px; color: #222; margin-right: 10px; padding-top: 7px;}
+.scategori > li:first-child {margin-left: 5px;}
+.scategori > li > a {font-size: 12px; color: #222; text-decoration: none;}
+.scategori > li > a > i {font-size: 8px; color: #666;}
+.scategori > li > i {font-size: 8px; color: #666;}
+
+    /* sub main book header */
+.SBHB {width: 55%; height: 80px; background-color: #fff; border-bottom: 1px solid #666;
+    display: flex; flex-direction: row;}
+.SBHB > .SBHBL {width: 70%; height: 80px; padding-left: 5px;}
+.SBHBL > h1 {font-size: 20px; font-weight: bold; padding-top: 20px;}
+.SBHBL > h1 > span {font-size: 15px; font-weight: normal;}
+.SBHBL > .SBHBLB {width: 70%;}
+.SBHBL > .SBHBLB > h2 {font-size: 13px; color: #666; margin-top: 8px;}
+.SBHBL > .SBHBLB > h2 > span { font-size: 10px; border: 1px solid #c6c9cd; color: #c6c9cd; 
+    background-color: #fff; margin-right: 5px; padding: 0 5px;}
+
+.SBHBR {width: 30%; height: 80px; display: flex; flex-direction: row;}
+.SBHBR > li {margin-right: 5px; font-size: 11px; padding-top: 30px; margin-left: 135px;}
+.SBHBR > li > a {text-decoration: none; font-size: 15px; color: #666;}
+.SBHBR > li > a > .SBstar {font-size: 18px; color: #ef544d;}
+
+/* sub main book full box */
+#scontent1 > #SubBookBox {width: 55%; height: 500px; background-color: #fff;
+    display: flex; flex-direction: row;}
+
+/* sub main book box left */
+#SubBookBox > .SBBL {width: 20%; height: 100%; background-color: #fff;
+    display: flex; flex-direction: column;}
+        /* sub main book Left img */
+.SBBL > .SBBLimg {width: 100%; height: 60%; margin-top: 20px;
+    display: flex; align-items: center; justify-content: center;}
+.SBBLimg > img {width: 90%; height: 90%; box-shadow: 0 8px 10px 0 #666;}
+        /* sub main book Left button */
+.SBBL > .SBBLbtn {width: 100%; height: 30px; margin-top: 5px;
+    display: flex; flex-direction: row; justify-content: space-between; }
+.SBBLbtn > li {width: 50%; height: 30px; background-color:#fff; border: 1px solid #c6c9cd;
+    display: flex; justify-content: center; align-items: center;}
+.SBBLbtn > li > a {font-size: 12px; text-decoration: none; color: #666;}
+.SBBLbtn > li > a > i {margin-right: 3px; color:#666}
+
+        /* sub main book Left TextBox */
+.SBBLTB {width: 100%; height: 120px; margin-top: 10px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.SBBLTB > li {width: 100%; height: 30px; background-color: #f9f9f9; color: #888; margin-top: 5px;
+    font-size: 13px; display: flex; justify-content: center; align-items: center;}
+
+.SBBLTB > li > span {font-size: 13px; text-decoration: none; color: #ef544d; margin: 0 5px;}
+.SBBLTB > li > a > i {color: #666;}
+
+.SBBLTB > li > .SBBLRK {width: 100%; height: 30px;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.SBBLTB > li > .SBBLRK > li {width: 35%; font-size: 10px;}
+.SBBLTB > li > .SBBLRK > li:nth-child(2) {width: 5%;}
+.SBBLTB > li > .SBBLRK > li > a {font-size: 14px; text-decoration: none; color: #777;}
+.SBBLTB > li > .SBBLRK > li > a:hover {text-decoration-line: underline;}
+.SBBLTB > li > .SBBLRK > li > a > i {font-size: 12px; text-decoration: none; color: #777;}
+.SBBLTB > li > .SBBLRK > li > a > span {font-size: 14px; text-decoration: none; color: #ef544d;}
+
+.SBBLTB > li > .SBBLIB {width: 100%;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.SBBLTB > li > .SBBLIB > li {margin-right: 5px; color: #777;}
+.SBBLTB > li > .SBBLIB > .SBBLIcon > a {width: 20px; height: 20px;}
+.SBBLTB > li > .SBBLIB > .SBBLIcon > a > img {width: 100%; height: 100%;}
+
+/* sub main book box right */
+#SubBookBox > .SBBR {width: 78%; height: 100%; margin-left: 20px;
+    display: flex; flex-direction: column;}
+.SBBRH {width: 100%; height: 40px; background-color: #fff; border-bottom: 1px solid #e5e5e5; margin-bottom: 10px;
+    display: flex; flex-direction: row; align-items: center;}
+.SBBRH > li {font-size: 12px; text-decoration: none; color: #777; margin: 0 5px;}
+.SBBRH > li > a {font-size: 12px; text-decoration: none; color: #777;}
+.SBBRH > li > a:hover {text-decoration-line: underline;}
+
+    /*sub main book box right 정가 */
+.SBBR > .basicprice {width: 100%; height: 25px; margin-bottom: 5px;} 
+.basicprice > table {margin-top: 2px;}
+.basicprice > table th {font-size: 14px; color: #222; padding-right: 30px; padding-left: 20px;}
+.basicprice > table td {font-size: 13px; color: #666;}
+
+    /*sub main book box right 세일박스 */
+.salepricebox {width: 100%; height: 80px;}
+.saleprice {width: 150px; height: 75px; border: 1px solid #ef544d; border-top: 3px solid #ef544d;
+    display: flex; flex-direction: column; justify-content: center;}
+    /* border 화살표 */
+.saleprice::before{content:""; position: absolute; left:39%; transform: translate(-50%); margin-top:87px;
+    border-width: 5px; border-style:solid; border-color:#ef544d transparent transparent transparent;}
+
+.saleprice > a {text-decoration: none; line-height: 20px; margin-left: 10px;}
+.saleprice > a > h1 {font-size: 15px; color: #777;}
+.saleprice > a > h2 {font-size: 15px; color: #ed554a;}
+.saleprice > a > h2 > span {font-size: 12px; color: #555;}
+.saleprice > a > h3 {font-size: 12px; color: #555;}
+.saleprice > a > h3 > span {font-size: 12px; color: #555;}
+
+    /*sub main book box right 혜택박스 */
+.benefitbox {width: 100%; height: 140px; margin-top: 15px; background-color: #fff;}
+.benefitbox > table {width: 100%;}
+
+    /* sub main book box right 혜택박스 #1 */
+.benefitbox > table .benefitsale {width: 100%; height:40px; margin-top: 10px;}
+.benefitbox > table .benefitsale th {font-size: 13px; color: #222; font-weight: bold;}
+.benefitbox > table .benefitsale td ul {display: flex; flex-direction: row; margin-left: 10px;}
+.benefitbox > table .benefitsale td ul li {font-size: 13px; margin-right: 10px; color: #555;}
+.benefitbox > table .benefitsale td ul li a {font-size: 13px; text-decoration: none; color: #555;}
+.benefitbox > table .benefitsale td ul li a span {color: #ed554a;}
+
+    /* sub main book box right 혜택박스 #2 */
+.benefitbox > table .benefitsave {width: 100%; height:60px;}
+.benefitbox > table .benefitsave th {font-size: 13px; color: #222; font-weight: bold;}
+.benefitbox > table .benefitsave td ul {display: flex; flex-direction: row; margin-bottom: 15px;}
+.benefitbox > table .benefitsave td ul li {font-size: 13px; margin-right: 10px; color:#555;}
+.benefitbox > table .benefitsave td ul li .BSP {font-size: 13px; margin-right: 10px; color:#7a45e7;}
+.benefitbox > table .benefitsave td li span {color: #555;}
+.benefitbox > table .benefitsave td ul li a {font-size: 13px; text-decoration: none; color: #17a9ef;}
+.benefitbox > table .benefitsave td ul li a span {color: #ed554a;}
+
+.benefitbox > table .benefitsave td li {list-style: none; font-size: 13px; color: #555; margin-right: 10px; margin-left: 15px;}
+.benefitbox > table .benefitsave td li span {color: #ed554a;}
+
+/* sub main book box right 혜택박스 #1 */
+.benefitbox > table .benefitplus {width: 100%; height:30px; padding-top: 5px;}
+.benefitbox > table .benefitplus th {font-size: 13px; color: #222; font-weight: bold;}
+.benefitbox > table .benefitplus td ul {display: flex; flex-direction: row; }
+.benefitbox > table .benefitplus td ul li:first-child {color: #fff;}
+.benefitbox > table .benefitplus td ul li {font-size: 13px; margin-right: 10px; color: #555;}
+.benefitbox > table .benefitplus td ul li a img {height: 20px;}
+
+/* sub main book Right box 중간배너 */
+.SBBRBanner {width: 100%; height: 38px; margin-bottom: 5px;}
+.SBBRBanner > a > img {width: 100%; height: 100%;}
+
+/*sub main book box right 배송&주문 box */
+.SBBRTPbox {width: 100%; height: 60px; margin-top: 10px; background-color: #fff;}
+.SBBRTPbox > table {width: 55%;}
+
+/* sub main book box right 배송정보 #1 */
+.SBBRTPbox > table .Transpoter {width: 100%; height:30px;}
+.SBBRTPbox > table .Transpoter th {font-size: 13px; color: #222; font-weight: bold;}
+.SBBRTPbox > table .Transpoter td ul {display: flex; flex-direction: row; margin-left: 20px; }
+.SBBRTPbox > table .Transpoter td ul li {font-size: 13px; margin-right: 10px; color: #555;}
+.SBBRTPbox > table .Transpoter td ul li span {font-size: 13px; color: #222;}
+.SBBRTPbox > table .Transpoter td ul li a {font-size: 13px; text-decoration: none; color: #555;}
+.SBBRTPbox > table .Transpoter td ul li a span {color: #ed554a;}
+
+/* sub main book box right 주문정보 #2 */
+.SBBRTPbox > table .Order {width: 100%; height:30px;}
+.SBBRTPbox > table .Order th {font-size: 13px; color: #222; font-weight: bold;}
+.SBBRTPbox > table .Order td select {margin-left: 20px;}
+
+/* sub main book box right 하단버튼 */
+.SBBRBbtn {width: 100%; height: 50px; background-color: #fff; margin-top: 10px;}
+.SBBRBbtn > ul {width: 100%; height: 50px; display: flex; flex-direction: row;}
+.SBBRBbtn > ul > a {text-decoration: none;}
+    /* sub main book box right 하단버튼 #1 Grey */
+.SBBRBbtn > ul > a > .SBBRbtnG {width: 130px; height: 25px; background-color: #707070; border: 1px solid #707070;
+    font-size: 15px; color: #fff; text-align: center; margin-right: 5px; margin-left: 3px; padding-top: 10px;}
+
+    /* sub main book box right 하단버튼 #2 Red */
+.SBBRBbtn > ul > a > .SBBRbtnR {width: 130px; height: 25px; background-color: #e15148; border: 1px solid #e15148;
+    font-size: 15px; color: #fff; text-align: center; margin-right: 5px; padding-top: 10px;}
+
+    /* sub main book box right 하단버튼 #3 Heart */
+.SBBRBbtn > ul > a > .SBBRbtnH {width: 30px; height: 25px; background-color: #fff; border: 1px solid #e5e5e5; 
+    font-size: 15px; color: #e15148;; text-align: center; padding-top: 10px;}
+
+/* sub book main banner box */
+#scontent1 > #SMBB {width: 55%; height: 120px; background-color: #fff; 
+    border: 1px solid #a8a8a8;
+    display: flex; flex-direction: row;}
+
+    /* sub book main banner box left */
+#SMBB > .SMBLeft {width:18%; height: 120px;}
+.SMBLeft > ul {width: 100%; height: 100%; border-right: 1px solid #c3c3c3;
+    display: flex; flex-direction: column; justify-content: space-around; align-items: center;}
+.SMBLeft > ul > li {width: 178px; height: 25%; padding-top: 10px; padding-left: 10px;}
+.SMBLeft > ul > li > a {text-decoration: none; font-size: 12px; color: #c8c8c8;}
+
+.SMBLeft > ul > li:first-child {background-color: #dcdcdc; border-right: 1px solid #a8a8a8;}
+.SMBLeft > ul > li:nth-child(2) {background-color: #eee; border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; border-right: 1px solid #a8a8a8;}
+
+.SMBLeft > ul > li:last-child {background-color: #fff;}
+.SMBLeft > ul > li:last-child > a {color: #222; font-weight: bold;}
+
+    /* sub book main banner box center */
+#SMBB > .SMBCenter {width: 57%; height: 120px; border-right: 1px solid #a8a8a8;}
+.SMBCenter > a > img {width: 100%; height: 100%;}
+
+    /* sub book main banner box Right */
+#SMBB > .SMBRight {width: 25%; height: 120px;}
+.SMBRight > a > img {width: 100%; height: 100%;}

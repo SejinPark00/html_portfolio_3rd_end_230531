@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* section #2 */
+#content2 {width: 100%; height: 925px; margin: 0 auto; background-color: #fff; 
+    display: flex; flex-direction: column;}
+
+/* 중간 배너 */
+#CenterBannerBox {width: 100%; height: 150px; margin: 0 auto;  padding: 25px 0; background-color: #fff;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+#CenterBannerBox > .CenterBanner {margin:15px;}
+.CenterBanner > img {width: 100%; width: 100%;}
+
+/* 추천 도서 */
+#content2 > #RMainBox {width: 100%; height:915px; margin: 0 auto;
+    display: flex; flex-direction: column; align-items: center;} 
+
+/* 추천도서 BOX 1 */
+#RMainBox > .RMB1 {width: 55%; height: 350px; margin-bottom: 30px;
+    display: flex; flex-direction: row; justify-content: space-between;}
+
+    /* 추천도서 BOX 1-1 인터파크 추천 */
+.RMB1 > .IPRB {width:796px; height: 300px;}
+.IPRB > .IPRBHeader {width: 100%; height: 25px; border-bottom: 1px solid #000; 
+    display: flex; flex-direction: row; background-color: #fff; }
+
+.IPRBHeader > h1 {width: 85%; font-size: 22px; color: #000; text-align: center; position: relative;
+    padding-top: 15px; padding-left: 50px;  text-decoration-line: none;}
+.IPRBHeader > h1 > img {padding: 0 10px; background-color: #fff;}
+
+.IPRBHeader > h2 > a {width:10%; height: 25px; text-decoration: none; color: #666; font-size: 12px; 
+    margin: 15px 0 0 15px; }
+
+.IPRBHeader > h2 > a > span {font-size: 5px;}
+.IPRBHeader > h2 > a:hover {text-decoration-line: underline;}
+
+        /* 추천도서 BOX 1-1 인터파크 추천 슬라이드 */
+.IPRB > .IPRSB {width: 796px; height: 300px; overflow: hidden; border-bottom: 1px solid #ddd;
+    background-color: #fff; }
+.IPRSB > .IPRSlider {width: 2205px; height: 300px; 
+    display: flex; flex-direction: row; justify-content: space-between; }
+
+            /* 1-1 인터파크 추천 slide */
+.IPRSlider > li {width: 796px; height: 300px; padding-left: 22px; 
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+
+            /* 1-1 인터파크 추천 img box */
+.IPRSlider > li > .IPRSimg {width: 33%; height: 75%; }
+.IPRSimg > a > img {width: 100%; height: 100%; box-shadow: 0 5px 10px 0 #666;}
+/* .IPRSimg > .bookCoverHeart {top:826px; display: none; position: absolute;} */
+
+            /* 1-1 인터파크 추천 text box */
+.IPRSlider > li > .IPRSTB {width: 55%; height: 80%; margin-left: 30px;}
+
+.IPRSTB > .IPRSHeader {width: 100%; height: 50%; line-height: 30px;}
+.IPRSTB > .IPRSHeader > h1 > a {text-decoration: none; color: #ef544d; font-size: 20px; font-family: tahoma;
+    padding-top: 50px; display: block;}
+.IPRSTB > .IPRSHeader > h1 > a > .iprstar {text-decoration: none; color: gold; font-size: 20px;}
+.IPRSTB > .IPRSHeader > h2 > a {text-decoration: none; color: #444; font-size: 16px; 
+    display: block; margin-top: 3px;} 
+
+.IPRSTB > .IPRSText {width: 95%; height: 40%; background-color: #f7f7f7; line-height: 20px; margin-top: 20px;}
+.IPRSTB > .IPRSText > a {color: #444; overflow: hidden; text-decoration: none; }
+.IPRSTB > .IPRSText > a > p {font-size: 12px; padding: 8px; }
+
+/* 인터파크 추천 slide button */
+.IPRSlider > .ITprev {left:22.5%; border-radius: 20px; padding: 5px; }
+.IPRSlider > .ITnext {right:35.5%; border-radius: 20px; padding: 5px; }
+
+.IPRSlider > span {top: 925px; opacity: 0.5; font-size: 30px; font-weight: bold; display: block;
+    color: #666; cursor: pointer; position: absolute; }
+.IPRSlider > span:hover {opacity: 1; color: #ef544d}
+
+    /* 추천도서 BOX 1-2 트랜드&이슈 */
+.RMB1 > .TIB {width: 21%; height: 327px; background-color: #f7f7f7;}
+
+.TIB > .TIBHeader {width: 100%; height: 25px; border-bottom: 1px solid #000; background-color: #fff; }
+.TIBHeader > h1 {font-size: 15px; font-weight: bold; color: #555; padding: 5px 0 0 5px;}
+
+.TIB > .TIBimg {width: 90%; height: 280px; margin-top: 20px; margin-left: 8px;}
+.TIBimg > a > img {width: 100%; height: 100%;}
+
+/* 추천도서 BOX 2 */
+#RMainBox > .RMB2 {width: 55%; height: 400px; background-color: #fff; margin-bottom: 10px;
+    display: flex; flex-direction: row; justify-content: space-between;}
+
+    /* 추천도서 BOX 2-1 출판사 초이스 */
+.RMB2 > .PB {width: 360px; height: 360px;}
+
+.PB > .PBHeader {width: 100px; height: 20px; margin-bottom:5px;}
+.PBHeader > img {width: 100px;}
+
+.PB > .PBimgbox {width: 360px; height: 335px; border: 1px solid #ddd;}
+.PBimgbox > a > img {width: 100%; height: 100%;}
+
+    /* 추천도서 BOX 2-2 미디어 추천 */
+.RMB2 > .MRB {width: 360px; height: 350px;
+    display: flex; flex-direction: column;}
+
+.MRB > .MRBHeader {width: 100px; height: 20px; margin-bottom: 5px;}
+.MRBHeader > img {width: 100px;}
+
+.MRB > .MRBSB {width: 360px; height:550px; border: 1px solid #ddd; 
+    display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    
+.MRBSB > .MRBdot {position: absolute; top:1185px;
+    display: flex; flex-direction: row; justify-content: center;}
+
+.MRBdot > li {font-size: 10px; margin-right: 10px; color: #ddd;}
+.MRBdot > li:hover {cursor: pointer;}
+.MRBdot > .on {color: deepskyblue;}
+
+    /* 추천도서 BOX 2-2 미디어 추천 슬라이드 */
+.MRBSB > .MRS {width: 360px; height:335px;}
+.MRS > .MRSlide {width: 360px; height:330px; overflow: hidden;
+    display: flex; flex-direction: row;}
+.MRSlide > li {width: 100%; height: 100%;} 
+
+/* 미디어추천 slide button */
+.MRBprev {left:44.5%; border-radius: 20px; padding: 5px; }
+.MRBnext {right:36.75%; border-radius: 20px; padding: 5px; }
+
+.MRBSB > span {top: 1320px; opacity: 0.5; font-size: 30px; font-weight: bold; display: block;
+    color: #666; cursor: pointer; position: absolute; }
+.MRBSB > span:hover {opacity: 1; color: #ef544d}
+
+    /* 추천도서 BOX 2-3 이책어때 */
+.RMB2 > .HBB {width: 220px; height: 355px;}
+
+.HBB > .HBBSB {width: 220px; height:365px; 
+    display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.HBBSB > .HBBdot {position: absolute; top:1180px;
+    display: flex; flex-direction: row; justify-content: center;}
+.HBBdot > li {font-size: 10px; margin-left: 10px; color: #ddd;}
+.HBBdot > li:hover {cursor: pointer;}
+.HBBdot > .on {color: deepskyblue;}
+
+/* 추천도서 BOX 2-2 이책어때 슬라이드 */
+.HBBSB > .HBBS {width: 220px; height:410px; overflow: hidden;}
+.HBBS > .HBBSlide {width: 220px; height:410px; 
+    display: flex; flex-direction: row;}
+.HBBSlide > li {width: 100%; height: auto; }
+
+/* 이책어때 slide button */
+.HBBprev {left:65.75%; border-radius: 20px; padding: 5px; }
+.HBBnext {right:22.5%; border-radius: 20px; padding: 5px; }
+
+.HBBSB > span {top: 1320px; opacity: 0.5; font-size: 30px; font-weight: bold; display: block;
+    color: #666; cursor: pointer; position: absolute; }
+.HBBSB > span:hover {opacity: 1; color: #ef544d}
+
+/* 로그인 이동 배너 */
+.LMB {width: 55%; height: 150px; margin-bottom: 10px;}
+.LMB > a > img {width: 100%; height: 100%;}

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* section #3 */
+#content3 {width: 100%; height: 550px; margin: 0 auto; background-color: #fff;
+    display: flex; flex-direction: column;}
+
+#content3 > #AreaBox{width: 55%; height: 550px; margin: 0 auto; }
+#AreaBox > .AreaHeader {width: 100%; height: 25px; border-bottom: 1px solid #000; 
+    display: flex; flex-direction: row; background-color: #fff;}
+
+.AreaHeader > h1 {width: 100%; text-align: center; position: relative;
+    padding-top: 15px; background-color: #fff;}
+.AreaHeader > h1 > img {width: 110px; background-color: #fff; padding: 0 40px 5px 40px;}
+
+    /* 분야별 display box */
+#AreaBox > .AreaTagBox {width: 100%; height: 470px; background-color: #fff}
+.AreaTagBox > .AreaTabBox {width: 100%; height: 70px; }
+
+    /* 분야별 카테고리 */
+.AreaTabBox > .AreaTab {width: 100%; height: 100%; padding-top: 15px;
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}
+.AreaTab > li {width: 100px; height: 25px; text-align: center; padding-top: 15px;}
+.AreaTab > li > a {text-decoration: none; color: #222; font-size: 14px; font-weight: bold; }
+.AreaTab > li > a:hover {color:#ef544d;}
+.AreaTab > li:hover {cursor: pointer; border-bottom:2px solid #ef544d;}
+
+.AreaTagBox > .AreaContentBox {width: 100%; height: 400px; border-top:2px solid #ddd; overflow: hidden;}
+.AreaContentBox >  .ACBB {width:100%; height: 100%; display: flex; flex-direction: column;}
+
+    /* 분야별 카테고리 배너(해당 각 구역 적용) */
+.ACBB > a > img {width: 94%; height: 80px; margin-left: 30px; margin-top: 40px;}
+
+
+    /* 분야별 카테고리 book 디자인 #1 */
+.AreaContent1 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent1 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent1 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent1 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent1 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent1 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent1 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent1 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+
+    /* 분야별 카테고리 book 디자인 #2 */
+.AreaContent2 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent2 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent2 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent2 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent2 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent2 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent2 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent2 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+
+    /* 분야별 카테고리 book 디자인 #3 */
+.AreaContent3 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent3 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent3 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent3 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent3 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent3 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent3 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent3 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+
+    /* 분야별 카테고리 book 디자인 #4 */
+.AreaContent4 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent4 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent4 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent4 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent4 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent4 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent4 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent4 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+
+    /* 분야별 카테고리 book 디자인 #5 */
+.AreaContent5 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent5 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent5 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent5 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent5 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent5 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent5 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent5 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+
+    /* 분야별 카테고리 book 디자인 #6 */
+.AreaContent6 {width:100%; height: 70%; 
+    display: flex; flex-direction: row; justify-content: space-evenly;}
+.AreaContent6 > li {width: 125px; height: 270px; margin-top: 30px;}
+.AreaContent6 > li > a > img {width: 100%; height: 180px; box-shadow: 0 5px 10px 0 #666;}
+.AreaContent6 > li > h3 {width: 100%; height: 40px; padding-top: 20px; text-align: center; }
+.AreaContent6 > li > h3 > a {text-decoration: none; color: #222; font-size: 13px;}
+.AreaContent6 > li > h3 > a:hover { text-decoration-line: underline;}
+
+.AreaContent6 > li > h4 {width: 100%; height: 20px; 
+    font-size: 15px; text-align: center; text-decoration: none; color: #222;}
+.AreaContent6 > li > h4 > a {text-decoration: none; color: #222; font-size: 13px;}
+

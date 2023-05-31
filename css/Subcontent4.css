@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* sub section #4 리뷰,100자평 */
+#SubReview {width: 100%; height: auto; margin: 0 auto; background-color: #fff;
+    display: flex; flex-direction: column; align-items: center;} 
+
+    /* sub 리뷰 BOX */
+.SBRVB {width: 55%; height: auto; margin-top: 20px;} 
+
+    /* sub 리뷰Header BOX */
+.SBRB {width: 100%; height: auto; 
+    background-color: #fff; border-bottom: 1px solid #666;
+    display: flex; flex-direction: row;}
+
+.SBRB > .SBRBL {width: 80%; height: 30px; margin-top: 20px; 
+    padding-left:20px;}
+.SBRBL > h1 {color: #333; font-weight: bold; font-size: 20px; }
+.SBRBL > h1 > .RBstar {font-size: 20px; font-weight: normal; color: #666;}
+.SBRBL > h1 > .RBmin {font-size: 12px; font-weight: normal; color: #333;}
+
+.SBRBR {width: 20%;}
+.SBRBR > a {text-decoration: none; font-size: 12px; color: #fff; text-align: center; font-weight: bold;}
+.SBRBR > a > h3 {width: 88px; height: 20px; padding-top: 5px; margin-top: 18px; float: right;
+    background: #e25147; border-top: 1px solid #e25147; border-bottom: 1px solid #c81a14;
+    border-left: 1px solid #e25147; border-right: 1px solid #c81a14;}
+
+.SBReview {width: 100%; height: 60px; border-bottom: 1px solid #eee;}
+.SBReview > p {font-size: 12px; text-align: center; padding-top: 25px; color: #666;}
+
+    /* sub 100자평 BOX */
+.SubOHB {width: 55%; height: 450px; }
+
+    /* sub 100자평 header box */
+.SOHBHB {width: 100; height: auto; border-bottom: 1px solid #666;
+    display: flex; flex-direction: row;}
+
+.SOHBHBL {width: 80%; height: 30px; margin-top: 20px; padding-left:20px;}
+.SOHBHBL > h1 {color: #333; font-weight: bold; font-size: 20px; margin-top: 5px; }
+
+.SOHBHBR {width: 20%; height: 30px; margin-top: 20px; }
+.SOHBHBR > h1 {float: right; font-size: 12px; color: #666; margin-right: 10px; margin-top: 10px;}
+.SOHBHBR > h1 > i:hover {cursor: pointer;}
+
+    /* sub 100자평 write box */
+.SOHBWB {width: 97%; height: 140px; background-color: #f9f9f9; border: 1px solid #e3e3e3;
+    display: flex; flex-direction: column; margin-top: 20px; margin-left: 10px;}
+
+    /* sub 100자평 write box #1 */
+.WB1 {width: 100%; height: 50px;}
+.WB1 > ul {width: 80%; height: 25px; margin-top: 10px; margin-left: 20px;
+    display: flex; flex-direction: row;}
+
+.WB1 > ul > .wbradio{font-size: 15px; color: #333; padding-top: 0;}
+.WB1 > ul > li {margin-right: 15px; font-size: 13px; padding-top: 5px;}
+.WB1 > ul > .wb1em {margin-right: 15px; font-size: 13px; padding-top: 3px;}
+.WB1 > ul > li > .wb1star {margin-left: 1px; margin-top: 2px;}
+.WB1 > ul > li > .wb1star:hover {cursor: pointer; color: #e25147;}
+
+    /* sub 100자평 write box #2 */
+.WB2 {width: 79%; height: 20px; margin-left: 20px; margin-bottom: 10px;}
+.WB2 > p {float: right; font-size: 13px; color: #666;}
+
+    /* sub 100자평 write box #3 */
+.WB3 {width: 95%; height: 100px; margin-left: 20px; display: flex; flex-direction: row;}
+.WB3L {width: 84%; height: 100px;}
+.WB3L > .WB3LW {width: 98%; height: 60px;}
+
+.WB3R {width: 15%; height: 42px; }
+.WB3R > h3 {width: 100%; height: 100%; text-align: center; padding-top: 23px; background-color: #fff;
+    border-left: 1px solid #ccc; border-top: 1px solid #ccc;
+    border-right: 1px solid #999; border-bottom: 1px solid #999; font-size: 14px;}
+.WB3R > h3:hover {cursor: pointer;}
+.WB3R > h3 > a {text-decoration: none; color: #333;}
+
+/* sub 100자평 review box */
+.SOHBRB {width: 97%; height: auto; border: 1px solid #e3e3e3;
+    display: flex; flex-direction: column; margin-top: 20px; margin-left: 10px;}
+
+    /* sub 100자평 리뷰Header BOX */
+.OHBR1 {width: 100%; height: auto; 
+    border-bottom: 1px solid #eee;
+    display: flex; flex-direction: row; justify-content: space-between;}
+
+.OHBR1L {width: 80%; height: 30px; margin-top: 20px; padding-left:20px;}
+.OHBR1L > h1 {color: #333; font-weight: bold; font-size: 20px; }
+.OHBR1L > h1 > .OHBRBstar {font-size: 20px; font-weight: normal; color: #666;}
+.OHBR1L > h1 > .OHBRBmin {font-size: 12px; font-weight: normal; color: #333;}
+
+.OHBR1R {width: 15%; height: 30px; margin-top: 20px;}
+.OHBR1R > ul {width: 100%; height: 30px; 
+    display: flex; flex-direction: row; justify-content: space-around;}
+.OHBR1R > ul > li {font-size: 12px; color: #666; margin-top: 10px;}
+.OHBR1R > ul > li:first-child {font-size: 12px; color: #222;}
+.OHBR1R > ul > li:hover {cursor: pointer; text-decoration-line: underline; color: #333;}
+
+        /* sub 100자평 리뷰본문 BOX */
+    .OHBR2 {width: 100%; height: 120px;  overflow: hidden;
+        border-bottom: 1px solid #eee;
+        display: flex; flex-direction: column; }
+
+        /* sub 100자평 리뷰본문 BOX 최근순 #1 */
+    .R2lately {width: 100%; height: auto;}
+
+    .R2lately tr {width: 100%; height: 40px;
+        display: flex; flex-direction: row; border-bottom: 1px solid #eee;}
+    .R2lately tr:last-of-type{border-bottom: none;}
+
+    .R2lately tr td {display: flex; padding-top: 10px; padding-left: 20px;}
+    .R2lately tr .R2LD1 {width: 100px;}
+    .R2lately tr .R2LD2 {width: 100px; font-size: 14px;}
+    .R2lately tr .R2LD3 {width: 600px; font-size: 14px;}
+    .R2lately tr .R2LD4 {width: 135px; font-size: 14px; float: right;}
+
+        /* sub 100자평 리뷰본문 BOX 높은평점순 #2 */
+    .R2grade {width: 100%; height: auto;}
+
+    .R2grade tr {width: 100%; height: 40px;
+        display: flex; flex-direction: row; border-bottom: 1px solid #eee;}
+    .R2grade tr:last-of-type{border-bottom: none;}
+
+    .R2grade tr td {display: flex; padding-top: 10px; padding-left: 20px;}
+    .R2grade tr .R2LD1 {width: 100px;}
+    .R2grade tr .R2LD2 {width: 100px; font-size: 14px;}
+    .R2grade tr .R2LD3 {width: 600px; font-size: 14px;}
+    .R2grade tr .R2LD4 {width: 135px; font-size: 14px; float: right;}
+
+        /* sub 100자평 리뷰본문 버튼 BOX  #3 */
+    .OHBR3 {width: 100%; height: 33px;}
+    .R3btn {width: 100%; height: 33px; border-bottom: 1px solid #eee;
+        border-top:1px solid #555; border-bottom: 1px solid #fefefe;}
+    .R3btn > ul {width: 100%; height: 100%; background-color:#eee;;
+        display: flex; flex-direction: row; justify-content: center;}
+    .R3btn > ul > li {width: 55px; height: 25px; font-size: 12px;
+        padding-top: 10px; text-align: center;}
+        .R3btn > ul > li:hover {cursor: pointer;}
+        
+    .R3btn > ul > .R3btn1 {width: 35px; height: 21px; background-color: #555; border: 1px solid #555; color: #fff;}
+    .R3btn > ul > .R3btn2 {width: 35px; height: 21px; border-right: 1px solid #fefefe ;}

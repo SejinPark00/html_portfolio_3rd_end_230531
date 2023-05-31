@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* section #1 */
+#content1 {width: 100%; height: auto; margin: 0 auto; background-color: aquamarine;
+    display: flex; flex-direction: column;}
+
+/* slidebox (slide & rankingbox) */
+#slidebox {width: 100%; height: 320px; margin: 0 auto; 
+    display: flex; flex-direction: row; justify-content: center;}
+
+/* slide */
+#slidebox > .slide {width: 100%; height:320px; display: flex; flex-direction: column; background-color: #fff;}
+
+    /* slide img*/
+.slide > .SIB {width:40%; height: 320px; overflow: hidden; background-color: #fff;
+    margin-left: 22.5%;}
+
+.SIB > li > a > img {width:100%; height: 320px; }
+
+    /* slide button */
+.prev {left:22.5%; border-radius: 20px; padding: 5px; }
+.next {right:38%; border-radius: 20px; padding: 5px; }
+
+.slide > span {top: 35%; opacity: 0.5; display: none; font-size: 50px; font-weight: bold;
+    color: #666; cursor: pointer; position: absolute; }
+.slide > span:hover {opacity: 1;}
+
+/* slide chioce menubox  */
+section > .ScmBox {width: 100%; height: 50px; margin: 0 auto;background-color: #f7f7f7; }
+
+    /* slide chioce list */
+.ScmBox > .ScList {width: 55%; height: 100%; margin: 0 auto;  margin-bottom: 20px;
+    display: flex; flex-direction: row;}
+
+    /* slide chioce menu*/
+.scm {width:18.17%; text-align: center; padding-top: 15px; border-top: 1px solid black; }
+.scm:hover {border-top: 3px solid orangered;}
+.scm > a {font-size: 13px; font-weight: bold; color: #000; text-decoration: none;}
+
+    /* slide chioce menu button */
+.scm > .scmn1 {width: 100%; height: 30px; margin-top: -65px; 
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: start;}
+
+.scmn1 > li {width: 24px; height: 21px; background-color: #666; opacity: 0.8; margin-top: 8px; display:none;}
+.scmn1 > li > a {font-size: 12px; text-decoration: none; color: #fff;}
+.scmn1 > li:hover {background-color: #000; color: #fff;}
+
+.scm > .scmn2 {width: 100%; height: 30px; margin-top: -65px; 
+    display: flex; flex-direction: row; justify-content: space-evenly; align-items: start;}
+
+.scmn2 > li {width: 24px; height: 21px; background-color: #666; opacity: 0.8; margin-top: 8px; display:none;}
+.scmn2 > li > a {font-size: 12px; text-decoration: none; color: #fff;}
+.scmn2 > li:hover {background-color: #000; color: #fff;}
+
+    /* slide 4menu Book */
+.SIB > li > .CSBookBox {width:100%; height: 320px; background-color: #fff; 
+    display: flex; flex-direction: row; align-items: center; justify-content: space-around;}
+
+.CSBookBox > .CSBook{width:150px; height:230px; background-color: #fff;
+    display: flex; flex-direction: column; align-items: center;}
+.CSBook > a > img {width:100%; height:200px; box-shadow:0 5px 10px 0 #666;}
+
+.CSBook > h3 > a {width: 100%; font-size: 12px; text-decoration: none; color: #000; text-align: center; margin: 10px 0 5px 0; display: block; font-weight: bold;}
+.CSBook > h3 > a:hover {text-decoration-line: underline;}
+
+.CSBook > h4 > a {width: 100%; font-size: 12px; text-decoration: none; color: #666; text-align: center;}
+
+/* ranking box */
+#slidebox > #RkBox {width: 15%; height: 320px; background-color: #666; right: 22.5%; position: absolute;
+    display: flex; flex-flow: row wrap;  justify-content: center; align-items: center;}
+
+    /* ranking box herader */
+#RkBox > .RkHeader {width: 100%; height: 30px; border:1px solid #b7b7b7;  text-align: left;}
+.RkHeader > h3 > a {text-decoration: none; font-size: 15px; color: #fff29c;
+    margin-top: 8px; margin-left: 10px; display: block;}
+
+    /* ranking box menu */
+#RkBox > .RkMenuBox {width: 100%; height: 30px; margin-top: 1px;}
+.RkMenuBox > .RkMenu {height: 100%;
+    display: flex; flex-direction: row ; text-align: center;}
+.RkMenuBox > .RkMenu:hover {cursor: pointer;}
+
+.RkMenu > li {width: 50%; font-size: 15px; color:#fff;
+    display: flex; flex-flow: row wrap; justify-content: center; align-content: center;}
+.RkMenu > li:first-child {border:1px solid #b7b7b7; border-bottom : none;}
+.RkMenu > li:last-child {border:1px solid #b7b7b7;}
+
+/* ranking box menu 오늘 (today) */
+#RkBox > .RkToday {width: 100%; height:80.25%; background-color:#666; 
+    border:1px solid #b7b7b7; border-top: none; border-right:1px solid #8a8a8a; border-bottom:1px solid #000;}
+.RkToday > ul {margin-left: 10px;}
+
+.RkToday > ul > li {width: 250px; height:20px; line-height: 14px; }
+.RkToday > ul > li > a {text-decoration: none; color: #fff; font-size: 12px; display: block; float: left; }
+
+.RkToday > ul > li > a > .no {width: 20px; float:left; display: block; color:#fff; font-size: 12px; margin-top: 10px;}
+.RkToday > ul > li > a > .rkicon {width: 30px; height:100%; float: left; 
+    display: flex; flex-direction: row; white-space: nowrap;}
+
+.RkToday > ul > li > a > .rkicon > .rkno {float: left; display: block; color:#000;
+    font-size: 18px; margin-left: 12px; margin-top: 10px;}
+.RkToday > ul > li > a > .rkicon > .rkup {float:left; display: block; color: red; margin-left: 10px; margin-top: 10px;}
+.RkToday > ul > li > a > .rkicon > .rkdown {float:left; display: block; color: blue; margin-left: 10px; margin-top: 10px;}
+.RkToday > ul > li > a > .rkicon > .rknew {float:left; display: block; color: red; margin-left: 10px; margin-top: 10px;}
+
+.RkToday > ul > li > a > .rkicon > em {float: left; display: block; font-size: 10px; margin-left: 10px; margin-top: 10px;}
+
+.RkToday > ul > li > a > strong {width: 150px; height: 100%; color:#fff; font-size: 12px; margin-left: 20px; margin-top: 10px;
+    text-overflow: ellipsis; white-space: nowrap; overflow: hidden; display: block; float:left;}
+
+/* ranking week */
+#RkBox > .RkWeek {width: 100%; height:80.25%; background-color:#666; display: none;
+    border:1px solid #b7b7b7; border-top: none; border-right:1px solid #8a8a8a; border-bottom:1px solid #000;}
+.RkWeek > ul {margin-left: 10px;}
+
+.RkWeek > ul > li {width: 250px; height:20px; line-height: 14px; }
+.RkWeek > ul > li > a {text-decoration: none; color: #fff; font-size: 12px; display: block; float: left; }
+
+.RkWeek > ul > li > a > .no {width: 20px; float:left; display: block; color:#fff; font-size: 12px; margin-top: 10px;}
+.RkWeek > ul > li > a > .rkicon {width: 30px; height:100%; float: left; 
+    display: flex; flex-direction: row; white-space: nowrap;}
+
+.RkWeek > ul > li > a > .rkicon > .rkno {float: left; display: block; color:#000;
+    font-size: 18px; margin-left: 12px; margin-top: 10px;}
+.RkWeek > ul > li > a > .rkicon > .rkup {float:left; display: block; color: red; margin-left: 10px; margin-top: 10px;}
+.RkWeek > ul > li > a > .rkicon > .rkdown {float:left; display: block; color: blue; margin-left: 10px; margin-top: 10px;}
+.RkWeek > ul > li > a > .rkicon > .rknew {float:left; display: block; color: red; margin-left: 10px; margin-top: 10px;}
+
+.RkWeek > ul > li > a > .rkicon > em {float: left; display: block; font-size: 10px; margin-left: 10px; margin-top: 10px;}
+
+.RkWeek > ul > li > a > strong {width: 150px; height: 100%; color:#fff; font-size: 12px; margin-left: 20px; margin-top: 10px;
+    text-overflow: ellipsis; white-space: nowrap; overflow: hidden; display: block; float:left;}

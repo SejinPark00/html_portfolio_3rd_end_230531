@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* header */
+header {width: 100%; height: 205px; margin: 0 auto;}
+
+/* 상단메뉴 */
+header > #HdTopMenu {width: 100%; height:35px; margin: 0 auto; background-color:#f4f6f9;}
+
+    /* 상단 좌측메뉴 */
+#HdTopMenu > .LeftNav {width: 40%; height: 100%; float: left;
+    display: flex; flex-direction: row; justify-content: end;}
+.LeftNav > li {width:9%; float:right; background-color: #f4f6f9; border:1px solid #eee; 
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+
+.LeftNav > li > a {text-decoration: none; color:#666; font-size: 12px;}
+.LeftNav > li > span > a {text-decoration: none; color:#000; font-size: 12px;}
+.LeftNav > li:last-child {background-color:#fff; border:1px solid #dcdcdc; border-bottom:none;}
+
+    /* 상단 우측메뉴*/
+#HdTopMenu > .RightNav {width: 52%; height: 100%; float:right;
+    display: flex; flex-direction: row; justify-content: start;}
+.RightNav > li {width:7%; background-color: #f4f6f9;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.RightNav > li > a {text-decoration: none; color:#666; font-size: 12px;}
+.RightNav > li > a:hover {text-decoration-line: underline;}
+
+/* 상단 중앙 */
+header > #HdCenter {width: 100%; height: 130px; margin: 0 auto; display: flex; flex-direction: row; }
+
+    /* 상단 중앙 로고 */
+#HdCenter > .logobox {width: 32%; height: 100%; float: left; 
+    display: flex; flex-direction: row; justify-content: end; align-items: center;}
+.logobox > .logo {width:34%; height:80%; float:right; display: flex; justify-content: center; align-items: center;}
+.logobox > .logo > a  {text-decoration: none; font-size: 27px; text-align: center; font-style: "sans-serif";
+    color: #000; font-weight: bold;}
+.logobox > .logo > a > span {color: orangered;}
+
+    /* 상단 중앙 searchbox */
+#HdCenter > .searchbox {width:34%; height:100%;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    
+.searchbox > .search {width: 65%; height:40px; display: flex;}
+
+.search > input {width: 90%; height: 100%; background-color: #fff; color:#000;
+    border: none; outline: none; border-bottom:2px solid orangered;}
+.search > input::placeholder {padding:10px; font-weight: bold; color: #666;}
+
+.search > button {width:10%; height: 100%; background-color: #fff; border: none; 
+    color: orangered; font-size: 23px; border-bottom:2px solid orangered;}
+.search > button:hover {color:orangered; cursor: pointer;}
+
+    /* 상단 중앙 searchTag */
+.searchbox > .SearchTag {width: 70%; height: 30px;
+    display: flex; flex-direction: row; justify-content: center; align-items: center;}
+.searchbox > .SearchTag > li { font-size: 12px; text-decoration: none; color:deepskyblue; font-weight: bold;}
+.searchbox > .SearchTag > li > a {font-size: 12px; text-decoration: none; color:deepskyblue; font-weight: bold; margin: 0 8px;}
+
+    /* 상단 중앙 TopBanner */
+#HdCenter > .TopBanner {width:11%; height:100%; display: flex; justify-content: center; align-items: center;}
+.TopBanner > .TopBannerimg {width: 80%; height: 50%;}
+.TopBanner > .TopBannerimg > a > img {width: 100%; height: 100%;}
+
+/* 상단 bottom menu */
+#HdBotMenu {width: 100%; height: 40px; margin: 0 auto; background-color: #ef544d; border-top: 2px solid #000;
+    display: flex; flex-direction: row;}
+
+    /* 상단 bot 카테고리 */
+#HdBotMenu > .categori {width: 30%; }
+.categori > li {width: 25%; height: 95%; float: right; background-color:#c43730; position: relative;}
+
+.categori > li > a { font-size: 14px; text-decoration: none; color:#fff; font-weight: bold; opacity: 0.9; 
+    margin: 12px 0 0 15px; display: block;}
+.categori > li > a > i {margin-right: 10px; }
+.categori > li > a:hover {color: gold;}
+
+    /* 상단 카테고리 날개메뉴 JS적용구간 */
+.categori > li > .CtgMenu {display: none;}
+
+    /* 상단 카테고리 날개메뉴 */
+.categori > li > .CtgMenu > li {width: 600px; height: 500px; background-color: #fff; 
+    margin-top: 10px; position: relative; 
+    border-top: 1px solid #c43730;
+    border-left: 2px solid #c43730; 
+    border-right: 2px solid #c43730;
+    border-bottom: 2px solid #c43730;
+    display: flex; flex-direction: row;}
+
+    /* 상단 카테고리 날개메뉴 테두리 */
+.CtgSubMenu:first-child {padding-top:15px; padding-left: 10px;}
+.CtgSubMenu:nth-child(2) {border-left: 1px solid #eee;
+    border-right: 1px solid #eee; padding-top:15px; padding-left: 10px;}
+.CtgSubMenu:last-child {padding-top:15px; padding-left: 10px;}
+
+.CtgSubMenu > li {width: 200px; line-height: 25px; display: block;}
+.CtgSubMenu > li:first-child {padding-top: 20px;}
+
+    /* 상단 카테고리 날개메뉴 글꼴 */
+.CtgSubMenu > li > a {font-size: 12px; text-decoration: none; color: #666; display: block; }
+.CtgSubMenu > li > a:hover {cursor: pointer; text-decoration-line: underline; display: block;}
+
+.CtgSubMenu > li > a > span {font-size: 12px; text-decoration: none; color:orangered; display: block; }
+.CtgSubMenu > li > a > span:hover {cursor: pointer; text-decoration-line: underline; display: block;}
+
+    /* 상단 bot 메뉴 */
+#HdBotMenu > .BotMemu {width: 70%;
+    display: flex; flex-direction: row; align-items: center; text-align: center;}
+.BotMemu > li {width:6%; margin: 0 5px; }
+.BotMemu > li:first-child {margin-left: 20px;}
+.BotMemu > li:last-child {margin-left:-10px;}
+.BotMemu > li > a {font-size: 14px; text-decoration: none; color:#fff; font-weight: bold;}
